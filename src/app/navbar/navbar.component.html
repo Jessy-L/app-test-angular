@@ -1,0 +1,72 @@
+<div class="example-sidenav-content">
+  <mat-toolbar color="primary">
+
+    <button class="btn btn-outline-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop">
+
+      <fa-icon [icon]="faBars" ></fa-icon>
+
+    </button>
+    <span class="mini-spacer"></span>
+    <span class="">{{ appName }}</span>
+    <span class="example-spacer"></span>
+    <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+      <mat-icon>favorite</mat-icon>
+    </button>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+      <mat-icon>share</mat-icon>
+    </button>
+  </mat-toolbar>
+</div>
+
+
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasWithBackdrop" aria-labelledby="offcanvasWithBackdropLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasWithBackdropLabel">{{ appName }}</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+
+    <div class="navbar-nav p-2">
+
+      <div class="link-nav-custom">
+        <div>
+          <fa-icon [icon]="faHouse"></fa-icon>
+        </div>
+        <div class="nom-link">
+          Accueil
+        </div>
+      </div>
+
+      <div class="link-nav-custom">
+        <div>
+          <fa-icon [icon]="faHouse"></fa-icon>
+        </div>
+        <div class="nom-link">
+          Accueil
+        </div>
+      </div>
+
+      <div class="link-nav-custom">
+        <div>
+          <fa-icon [icon]="faHouse"></fa-icon>
+        </div>
+        <div class="nom-link">
+          Accueil
+        </div>
+      </div>
+
+      <div class="link-nav-custom">
+        <div>
+          <fa-icon [icon]="faHouse"></fa-icon>
+        </div>
+        <div class="nom-link">
+          Accueil
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+</div>
+

@@ -1,0 +1,11 @@
+<p>first-page works!</p>
+
+<div class="alert alert-success">
+  Bonjour <i class="fa fa-face-smile" aria-hidden="true"></i>
+</div>
+
+<div class="button btn btn-primary m-5" (click)="changeStatus()"> Affiche binding</div>
+
+<div  [hidden]="show" [style.backgroundColor]="bgColor" >
+  Binding {{ bgColor }}
+</div>
